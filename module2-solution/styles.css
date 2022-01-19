@@ -1,1 +1,88 @@
+/********** Base styles **********/
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-sizing: border-box;
+}  
 
+h1 {
+    text-align: center;
+    font-size: 27px;
+	color: black;
+	margin-bottom: 30px;
+}
+
+.row {
+    width: 100%;
+}
+
+p {
+	font-size: 16px;
+    padding: 15px 5px 0px 5px;
+	position: relative;
+}
+
+.section { 
+    text-align: justify;
+    background-color: rgb(150, 150, 150);
+   	border: 2px solid black;
+   	margin-top: 20px; 
+   	margin-right: 20px; 
+   	padding: 3px;
+   	position: relative;
+}
+
+span {
+	font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+	border: 1px solid black;
+	width: 150px;
+	float: right; 
+    top: 0; 
+    right: 0; 
+    margin: 0;
+	position: absolute;
+}
+
+#s1 {
+	background-color: blue;
+	color: black;
+}
+#s2 {
+	background-color: red;
+	color: black;
+}
+#s3 {
+	background-color: green;
+	color: black;
+}
+
+
+
+/********** Desktops **********/
+@media (min-width: 992px) {
+    .col-lg-4 {
+        width: 33.33%;
+        float: left;
+    }
+}
+
+/********** Tablets **********/
+@media (min-width: 768px) and (max-width: 991px) {
+    .col-md-6 {
+        width: 50%;
+        float: left;
+    }
+    .col-md-12 {
+        width: 100%;
+        float: left;
+    }
+}
+
+/********** Mobile Phones **********/
+@media (max-width: 767px)  {
+    .col-sx-12 {
+        width: 100%;
+        float: left;
+    }
+}
