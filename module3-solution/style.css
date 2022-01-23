@@ -1,0 +1,60 @@
+body {
+    font-size: 16px;
+    color: #000000;
+    background-color: #f2dc99;
+}
+
+#header-nav, .navbar {
+    background-color: #92b473;
+    border-radius: 0;
+    border: 0;
+}
+
+.navbar-brand {
+    font-size: 3em;
+    color: #2e2e2e;
+}
+
+.navbar-brand:hover, .navbar-brand:focus {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+h1 {
+    font-size: 2em;
+    color: #2e2e2e;
+    margin-top: 30px;
+    margin-bottom: 30px;;
+    text-align: center;
+}
+
+.Chicken {
+    color: #2e2e2e;
+    text-align: center;
+    background-color: #eec824;
+}
+
+.Chicken h2 {
+    font-size: 1.2em;
+}
+
+.Beef {
+    color: #2e2e2e;
+    text-align: center;
+    background-color: #a0dfdf;
+}
+
+.Beef h2 {
+    font-size: 1.2em;
+}
+
+.Sushi {
+    color: #2e2e2e;
+    text-align: center;
+    background-color: #6a961f;
+}
+
+.Sushi h2 {
+    font-size: 1.2em;
+}
